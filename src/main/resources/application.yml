@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    discovery:
+      enabled: true
+  application:
+    name: api-gateway
+server:
+  port: 8888
+
