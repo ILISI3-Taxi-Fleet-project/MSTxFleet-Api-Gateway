@@ -4,6 +4,8 @@ spring:
       enabled: true
   application:
     name: api-gateway
+  docker:
+    compose:
+      enabled: false
 server:
   port: 8888
-
